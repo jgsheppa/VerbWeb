@@ -1,0 +1,45 @@
+header {
+  background-color: #FF3333;
+  margin: auto;
+  
+}
+div.heading{
+  font-size: 85px;
+  font-weight: bold;
+  font-family: Arial;
+  border-style: double;
+  border-width: 7px;
+  background-color: inherit;
+  margin-left: 10px;
+  margin-right: 900px;
+  padding: 10px;
+}
+
+header img {
+  float: right;
+  height:15%;
+  width: 15%;
+  padding: 10px;
+  margin-right: 10px;
+  border-style: double;
+  border-width: 7px;
+}
+
+.topnav {
+  background-color: #FF3333;
+  font-family: Garamond;
+  height: 40px;
+  text-align: left;
+
+}
+
+.verbs {
+  background-color: white;
+  font-family: Garamond;
+}
+
+label {
+  background-color: #FF3333;
+  font-weight: bold;
+  padding: 10px;
+}

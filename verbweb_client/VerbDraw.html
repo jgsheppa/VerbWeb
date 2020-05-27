@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>VerbWeb</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="p5.min.js"></script>
+    <script src="VerbProgram.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <img src="VerbWebLogo2.jpg"/>
+        <div class="heading">VerbWeb</div>
+    </header>
+      <div class="topnav">
+        <span><a class="active" href="#home">Home</a></span>
+        <span><a href="#about">About</a></span>
+        <span><a href="#contact">Contact</a></span>
+        <span><input type="text" placeholder="Search for a verb"></span>
+      </div>
+    <label for="verbs">Choose a verb:</label>
+    <select id="verbs" value="" onchange="" required>
+      <option id = "giveImp" value="giveImp">Давать</option>
+      <option id = "giveP" value="giveP">Дать</option>
+      <option id = "callImp" value="callImp">Звать</option>
+      <option id = "live"  value="live">Жить</option>
+      <option id = "lieDownImp"  value="lieDownP">Лечь</option>
+      <option id = "pour"  value="pour">Лить</option>
+      <option id = "goImp"  value="goImp">Ходить</option>
+      <option id = "goP"  value="goP">Идти</option>
+    </select>
+    <a type="button" id="giveImpRef" href="https://en.wiktionary.org/wiki/давать" target="blank"></a>
+  </body>
+</html>
+
